@@ -23,7 +23,7 @@ class ProductManagerTest {
     @InjectMocks
     private ProductManager manager;
 
-    private Product first = new Book(1, "First", 100, "Gogl");
+    private Product first = new Book(1, "First", 100, "Gogol");
     private Product second = new Book(2, "Second", 200, "Pushkin");
     private Product third = new Book(3, "Third", 300, "Pushkin");
     private Product fourth = new Smartphone(4, "IphoneX", 100000, "Apple");
